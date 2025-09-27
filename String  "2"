@@ -1,0 +1,46 @@
+
+import java.util.*;
+public class Main{
+public static void main(String args[]){
+Scanner kbd=new Scanner(System.in);
+String name=kbd.nextLine();
+String name1=kbd.nextLine();
+String name ="ECE";
+String name1="ECE";
+System.out.println(name);
+System.out.println(name1);
+System.out.println(name.equals(name1));     //it check the values of both and give output as true or false
+System.out.println(name==name1);            //it checks the value and also the memmory location. if both are equals then only it give o/p as true. otherwise false
+
+
+*************************8*******************************************************************
+
+import java.util.*;
+public class Main{
+public static void main(String args[]){
+Scanner kbd=new Scanner(System.in);
+String name=kbd.nextLine();
+String name1=kbd.nextLine();
+String name ="ECE";
+String name1="ece";
+System.out.println(name);
+System.out.println(name1);
+System.out.println(name.equals(name1));  // false  if we try to make it true do next line
+System.out.println(name.equalsIgnoreCase(name1));   //true
+System.out.println(name==name1);  //false
+***********************************************************************************************************8
+
+import java.util.*;
+public class Main{
+public static void main(String args[]){
+Scanner kbd=new Scanner(System.in);
+StringBuilder nam=new StringBuilder("ECE");
+StringBuilder nam1=new StringBuilder("ECE");
+
+System.out.println(nam.hashCode());       // GIVE THE MEMORY LOCATION OF NAM 
+System.out.println(nam1.hashCode());       //GIVE THE MEMORY LOCATION OF NAM1
+
+*****************************************************************************************************************
+
+
+
