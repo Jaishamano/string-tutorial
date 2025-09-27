@@ -1,0 +1,31 @@
+import java.util.*;
+public class Main{
+public static void main(String args[]){
+Scanner kbd.new scanner(System.in);
+String name=kbd.nextLine();
+System.out.println(name);
+System.out.println(name.length);
+System.out.println(name.toLowerCase());
+System.out.println(name.toUpperCase());
+System.out.println(name.Substring(2));
+System.out.println(name.Substring(2,6));
+
+
+System.out.println(name.replace('a','i'));
+System.out.println(name.replace("ll","z");
+System.out.println(name.replaceAll("a","i"));
+System.out.println(name.replaceFirst("a","i"));
+
+System.out.println(name.indexOf('a'));        //i/p:annamalai o/p:0
+System.out.println(name.lastIndexOf('a'));    //i/p:annamalai o/p:7
+System.out.println(name.indexOf('a',4));    
+
+System.out.println(name.indexOf('a'));           //i/p:ECEVSB  O/P:-1
+
+System.out.println(name.charAt(4));
+
+
+
+
+
+
